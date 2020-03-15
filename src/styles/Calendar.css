@@ -1,0 +1,27 @@
+.calendar {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  font-size: min(2em, 11vw)
+}
+
+.date {
+  float: right;
+}
+
+@media only screen 
+and (max-width: 500px) {
+  .header {
+    text-align: center;
+  }
+  .title {
+    display: none;
+  }
+  .date {
+    float: none;
+  }
+}
